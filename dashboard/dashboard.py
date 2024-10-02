@@ -5,14 +5,14 @@ import matplotlib.pyplot as plt
 
 # Data Loading
 def load_data():
-    customers_df = pd.read_csv("olist_customers_dataset.csv")
-    order_items_df = pd.read_csv("olist_order_items_dataset.csv")
-    order_payment_df = pd.read_csv("olist_order_payments_dataset.csv")
-    order_review_df = pd.read_csv("olist_order_reviews_dataset.csv")
-    orders_df = pd.read_csv("olist_orders_dataset.csv")
-    product_category_df = pd.read_csv("product_category_name_translation.csv")
-    product_name_df = pd.read_csv("olist_products_dataset.csv")
-    seller_df = pd.read_csv("olist_sellers_dataset.csv")
+    customers_df = pd.read_csv("dashboard/olist_customers_dataset.csv")
+    order_items_df = pd.read_csv("dashboard/olist_order_items_dataset.csv")
+    order_payment_df = pd.read_csv("dashboard/olist_order_payments_dataset.csv")
+    order_review_df = pd.read_csv("dashboard/olist_order_reviews_dataset.csv")
+    orders_df = pd.read_csv("dashboard/olist_orders_dataset.csv")
+    product_category_df = pd.read_csv("dashboard/product_category_name_translation.csv")
+    product_name_df = pd.read_csv("dashboard/olist_products_dataset.csv")
+    seller_df = pd.read_csv("dashboard/olist_sellers_dataset.csv")
     
     return customers_df, order_items_df, order_payment_df, order_review_df, orders_df, product_category_df, product_name_df, seller_df
 
